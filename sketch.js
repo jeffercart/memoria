@@ -47,7 +47,7 @@ function draw() {
   background(255);
   drawScene();
   firstPerson(cam1);
-  if (frameCount > 250) {
+  if (frameCount > 150) {
     if      (pagina == 1){
                 window.open("https://jeffercart.github.io/galeria/", "_top");} //galeria
     else if (pagina == 2){
